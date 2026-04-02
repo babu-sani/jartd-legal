@@ -1,0 +1,184 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "dpi": 72,
+    "orientation": "portrait"
+  },
+  "zones": {
+    "status_bar": {
+      "y_start": 0,
+      "y_end": 48,
+      "note": "Phone status bar \u2014 never put content here"
+    },
+    "category_bar": {
+      "y_start": 48,
+      "y_end": 168,
+      "note": "Category label + ui_hint icon"
+    },
+    "prompt_area": {
+      "y_start": 168,
+      "y_end": 1572,
+      "padding_left": 60,
+      "padding_right": 60,
+      "padding_top": 60,
+      "padding_bottom": 60,
+      "note": "Main prompt text \u2014 auto-sized by app"
+    },
+    "rule_badge": {
+      "y_start": 1572,
+      "y_end": 1692,
+      "note": "Active rule indicator or timer \u2014 only shows on rule/challenge cards"
+    },
+    "swipe_area": {
+      "y_start": 1692,
+      "y_end": 1824,
+      "note": "Swipe/tap indicator"
+    },
+    "safe_bottom": {
+      "y_start": 1824,
+      "y_end": 1920,
+      "note": "iPhone home bar \u2014 never put content here"
+    }
+  },
+  "text_area_inner": {
+    "x_start": 60,
+    "x_end": 1020,
+    "y_start": 228,
+    "y_end": 1512,
+    "width": 960,
+    "height": 1284,
+    "note": "Actual area where prompt text renders (after padding)"
+  },
+  "colors": {
+    "midnight_navy": {
+      "r": 15,
+      "g": 14,
+      "b": 23
+    },
+    "deep_charcoal": {
+      "r": 26,
+      "g": 26,
+      "b": 46
+    },
+    "electric_coral": {
+      "r": 255,
+      "g": 107,
+      "b": 107
+    },
+    "teal_surge": {
+      "r": 46,
+      "g": 196,
+      "b": 182
+    },
+    "amber_gold": {
+      "r": 244,
+      "g": 162,
+      "b": 97
+    },
+    "clean_white": {
+      "r": 255,
+      "g": 255,
+      "b": 254
+    },
+    "muted_lavender": {
+      "r": 167,
+      "g": 169,
+      "b": 190
+    },
+    "soft_purple": {
+      "r": 199,
+      "g": 125,
+      "b": 255
+    },
+    "lime_spark": {
+      "r": 0,
+      "g": 245,
+      "b": 212
+    },
+    "deep_red": {
+      "r": 230,
+      "g": 57,
+      "b": 70
+    },
+    "warm_gray": {
+      "r": 45,
+      "g": 45,
+      "b": 58
+    }
+  },
+  "card_types": [
+    {
+      "name": "default",
+      "file": "card_bg_default",
+      "bg": "midnight_navy",
+      "accent": "deep_charcoal",
+      "label": "DEFAULT",
+      "label_color": "teal_surge"
+    },
+    {
+      "name": "vote",
+      "file": "card_bg_vote",
+      "bg": "midnight_navy",
+      "accent": "lime_spark",
+      "label": "VOTE",
+      "label_color": "lime_spark"
+    },
+    {
+      "name": "duel",
+      "file": "card_bg_duel",
+      "bg": "midnight_navy",
+      "accent": "amber_gold",
+      "label": "DUEL",
+      "label_color": "amber_gold"
+    },
+    {
+      "name": "crown",
+      "file": "card_bg_crown",
+      "bg": "midnight_navy",
+      "accent": "amber_gold",
+      "label": "RULE \u2014 CROWN",
+      "label_color": "amber_gold"
+    },
+    {
+      "name": "point_up",
+      "file": "card_bg_pointup",
+      "bg": "midnight_navy",
+      "accent": "teal_surge",
+      "label": "HEAVEN",
+      "label_color": "teal_surge"
+    },
+    {
+      "name": "timer",
+      "file": "card_bg_timer",
+      "bg": "midnight_navy",
+      "accent": "electric_coral",
+      "label": "CHALLENGE",
+      "label_color": "electric_coral"
+    },
+    {
+      "name": "ruleend",
+      "file": "card_bg_ruleend",
+      "bg": "deep_charcoal",
+      "accent": "muted_lavender",
+      "label": "RULE OVER",
+      "label_color": "muted_lavender"
+    },
+    {
+      "name": "penalty",
+      "file": "card_bg_penalty",
+      "bg": "midnight_navy",
+      "accent": "soft_purple",
+      "label": "PENALTY",
+      "label_color": "deep_red"
+    },
+    {
+      "name": "opening",
+      "file": "card_bg_opening",
+      "bg": "midnight_navy",
+      "accent": "teal_surge",
+      "label": "LET'S GO",
+      "label_color": "amber_gold"
+    }
+  ]
+}
